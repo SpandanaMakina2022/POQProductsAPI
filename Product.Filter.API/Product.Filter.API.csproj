@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Product.Filter.Abstractions\Product.Filter.Abstractions.csproj" />
+    <ProjectReference Include="..\Product.Filter.Repository\Product.Filter.Repository.csproj" />
+    <ProjectReference Include="..\Product.Filter.Service\Product.Filter.Service.csproj" />
+  </ItemGroup>
+
+
+</Project>
